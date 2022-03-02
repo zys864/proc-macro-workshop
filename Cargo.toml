@@ -5,7 +5,9 @@ edition = "2021"
 publish = false
 
 [workspace]
-
+workspace=[
+    "builder"
+]
 [[bin]]
 name = "workshop"
 path = "main.rs"
